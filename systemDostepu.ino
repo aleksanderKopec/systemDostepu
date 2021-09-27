@@ -20,8 +20,6 @@ LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 //declaration of last admin card Address
 //those addresses cant be deleted/rewrited and have additional permissions
-//such as adding new cards to memory.
-//Default is 0.
 //This const has to be the BEGINNING (for example 0) of last admin card address
 //not the end of last admin card address.
 #define ADMIN_ADDRESS 0
